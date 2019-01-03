@@ -7,13 +7,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:flutter_intro/main.dart';
+import 'package:flutter_intro/widget/tic_tac_toe.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(MyApp());
+    await tester.pumpWidget(TicTacToe());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
