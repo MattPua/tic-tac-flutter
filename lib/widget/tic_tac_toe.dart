@@ -175,7 +175,7 @@ class TicTacToeState extends State<TicTacToe> {
               return Container(
                   decoration: BoxDecoration(
                       image: new DecorationImage(
-                          image: new AssetImage("images/chalkboard.jpg"),
+                          image: new AssetImage("assets/images/chalkboard.jpg"),
                           fit: BoxFit.cover)),
                   child: ListView(
                     children: <Widget>[
