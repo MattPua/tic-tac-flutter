@@ -1,5 +1,5 @@
+import 'package:Tic_Tac_Flutter/model/player.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_intro/model/player.dart';
 import 'tic_tac_toe_grid_square.dart';
 
 enum GameState { WON, DRAW, IN_PROGRESS }
