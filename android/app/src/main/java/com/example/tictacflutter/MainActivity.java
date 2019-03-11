@@ -1,4 +1,4 @@
-package com.example.flutterintro;
+package com.example.tictacflutter;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
