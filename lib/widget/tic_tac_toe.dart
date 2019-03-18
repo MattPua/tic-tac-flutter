@@ -138,7 +138,7 @@ class TicTacToeState extends State<TicTacToe> {
         }
     }
     Container messageBox = Container(
-      height: 75,
+      height: 30,
       child: Center(
           child: Text(
         messageBoxText,
@@ -167,7 +167,7 @@ class TicTacToeState extends State<TicTacToe> {
         home: Scaffold(
             appBar: AppBar(
               title: Text(
-                "Tic Tac Toe",
+                "Tic Tac Flutter",
                 style: TextStyle(color: Colors.white),
               ),
             ),

@@ -1,4 +1,4 @@
-package com.example.tictacflutter;
+package puatechno.tictacflutter;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
